@@ -22,8 +22,5 @@
       "Yudiz\\Core\\": ""
     }
   },
-  "require": {
-    "yudiz/yudiz-core": "^1.0"
-  },
   "minimum-stability": "dev"
 }
