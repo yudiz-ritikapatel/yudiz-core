@@ -22,6 +22,7 @@
       "psr-4": {
         "Yudiz\\Core\\": ""
       }
-    }
+    },
+    "minimum-stability": "dev"
   }
   
