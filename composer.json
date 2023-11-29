@@ -1,28 +1,29 @@
 {
   "name": "yudiz/yudiz-core",
   "description": "Yudiz Core for Magento 2",
-    "type": "magento2-module",
-    "version": "1.0.0",
-    "license": [
-        "OSL-3.0",
-        "AFL-3.0"
+  "type": "magento2-module",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Yudiz Solutions Ltd.",
+      "email": "support@yudiz.com",
+      "homepage": "https://www.yudiz.com/",
+      "role": "Magento Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
     ],
-    "authors": [
-        {
-            "name": "Yudiz Solutions Ltd.",
-            "email": "support@yudiz.com",
-            "homepage": "https://www.yudiz.com/",
-            "role": "Magento Developer"
-        }
-    ],
-    "autoload": {
-      "files": [
-        "registration.php"
-      ],
-      "psr-4": {
-        "Yudiz\\Core\\": ""
-      }
-    },
-    "minimum-stability": "dev"
-  }
-  
+    "psr-4": {
+      "Yudiz\\Core\\": ""
+    }
+  },
+  "require": {
+    "yudiz/yudiz-core": "^1.0"
+  },
+  "minimum-stability": "dev"
+}
