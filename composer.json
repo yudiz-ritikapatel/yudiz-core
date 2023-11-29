@@ -1,6 +1,6 @@
 {
-    "name": "yudiz/module-core",
-    "description": "Yudiz Core for Magento 2",
+  "name": "yudiz/yudiz-core",
+  "description": "Yudiz Core for Magento 2",
     "type": "magento2-module",
     "version": "1.0.0",
     "license": [
